@@ -83,6 +83,9 @@
 #include <systemlib/param/param.h>
 #include <systemlib/systemlib.h>
 
+// GRVC
+#include <platforms/posix/px4_messages/px4_control_state.h>
+
 #else
 #error "No target platform defined"
 #endif

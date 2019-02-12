@@ -76,6 +76,13 @@ set(config_module_list
 	modules/mavlink
 
 	#
+	# GRVC
+	#
+	modules/shm_ekf2
+	modules/shm_vision_pose
+	modules/udp_attitude
+
+	#
 	# PX4 drivers
 	#
 	drivers/linux_sbus
